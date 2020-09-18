@@ -17,7 +17,6 @@ public class ejercicio20 {
     elementos son verdaderos.*/
 
     public static boolean sonVerdaderos(boolean[] unArray) {
-        boolean retorno = false;
         int contador = 0;
         for (int i = 0; i < unArray.length; i++) {
             if (unArray[i] == false) {
@@ -25,10 +24,9 @@ public class ejercicio20 {
             }
         }
         if (contador == 0) {
-            retorno = true;
-            return retorno;
+            return true;
         } else {
-            return retorno;
+            return false;
         }
 
     }
