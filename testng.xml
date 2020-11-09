@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test SalesForce">
+    <test name="ALl test cases">
+        <parameter name="specificTag" value="h2"> </parameter>
+        <classes>
+            <class name="tests.Practico12.testngSalesforce"/>
+            <class name="tests.Practico12.spotifyTestWithParameters"/>
+        </classes>
+    </test>
+
+</suite>
